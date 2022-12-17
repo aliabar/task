@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,400&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 657px;
+    width: 40%;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+ img {
+   height: 15rem;
+   width: 15rem;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   margin-bottom: 1rem;
+  
+}
+img:hover{
+    border: 4px solid yellow;
+}
+
+.nem {
+    color: white;
+    font-size: 35px;
+}
+
+.pr {
+    color: white;
+    font-size: 22px;
+}
+
+.nav-link {
+    color: #fff;
+    background-color: rgb(62, 62, 62);
+    font-size: 18px;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    padding: 10px;
+    margin: 10px;
+    width: 520px;
+}
+.nav-link:hover{
+    background-color: yellow;
+}
+
+
+@media  (max-width: 768px) {
+    .nav-link{
+        width: 150px ;
+        margin-bottom: 0px;
+        
+    }
+    .user img {
+        height: 9rem;
+        width: 9rem;
+        margin-left: 0px;
+        margin-top: -83px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 769px) and  (max-width: 992px) {
+    .nav-link{
+        width: 275px !important;
+    }
+    img{
+        margin-left: 0px;
+    }
+  }
+  /* Large */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .nav-link{
+        width: 400px;
+    }
+  }
+
+
+
+
+
+.navbar>.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.sac{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 30px;
+    min-height: 100vh;
+    ;
+    background-color: rgb(255, 255, 255);
+
+}
+.sac h3{
+    font-size: 2.5rem;
+    color: rgb(31, 31, 31);
+}
+.sac h1{
+    font-size: 5rem;
+    color:#000000;
+}
+.btn{
+    color: #000;
+   background-color: rgb(253, 245, 11);
+}
